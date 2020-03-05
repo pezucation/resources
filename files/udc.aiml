@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I am sorry. I do not understand. Can you rephrase your question?</template>
+  </category>
+<category>
+    <pattern>How do I go from moles to moles </pattern>
+    <template>Always start with the given (#, unit, substance). Then, since the question gave you moles, go straight to the mole ratio and you are done.</template>
+</category>
+
+<category><pattern>from moles</pattern><template><srai>HOW DO I GO FROM MOLES TO MOLES </srai></template></category>
+<category><pattern>to moles</pattern><template><srai>HOW DO I GO FROM MOLES TO MOLES </srai></template></category>
+
+<category>
+    <pattern>What is a mole ratio </pattern>
+    <template>The mole ratio is the coefficient of the substance you want over the substance you got from the balanced chemical equation.</template>
+</category>
+
+<category><pattern>mole ratio</pattern><template><srai>WHAT IS A MOLE RATIO </srai></template></category>
+
+<category>
+    <pattern>How do I go from grams to moles </pattern>
+    <template>If you are given grams you must divide buy the molar mass of the substance given before you can use the mole ratio. If you want moles you are done.</template>
+</category>
+
+<category><pattern>grams to moles</pattern><template><srai>HOW DO I GO FROM GRAMS TO MOLES </srai></template></category>
+
+<category>
+    <pattern>Given moles</pattern>
+    <template>If you are given moles, you can go straight to the mole ratio!</template>
+</category>
+
+
+
+
+
+
+<category>
+    <pattern>Given grams</pattern>
+    <template>If you are given grams you must divide by the molar mass of the substance given (1 mole/x.xxg) before using the mole ratio.</template>
+</category>
+<category>
+    <pattern>grams to grams</pattern>
+    <template>If you are given grams you must divide by the molar mass of the substance given (1 mole/x.xxg). Them use the mole ratio and finally multiply by the molar mass of the substance you are looking for.</template>
+</category>
+<category>
+    <pattern>moles to grams</pattern>
+    <template>If you are given moles, write down the given and go straight to the mole ratio and then multiply by the molar mass of the substance you are looking for (x.xxg/mol).</template>
+</category>
+<category>
+    <pattern>calculator</pattern>
+    <template>Multiply everything on top and divide by the bottom. I suggest using parenthesis.</template>
+</category>
+
+<category><pattern>math</pattern><template><srai>CALCULATOR</srai></template></category>
+
+</aiml>
